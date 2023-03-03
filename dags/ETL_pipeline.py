@@ -26,14 +26,12 @@ def etl():
         Gomel, BY and then dump the json to the /src/data/ directory
         with the file name "<today's date>.json"
         """
-        # dotenv_path = os.path.abspath('.env')
-        # # load our .env file from the path
-        load_dotenv()
 
+        load_dotenv()
         API_KEY = os.getenv('API_KEY')
         url = os.getenv('url')
-        paramaters = {'q': 'Gomel, BY', 'appid': API_KEY}
 
+        paramaters = {'q': 'Gomel, BY', 'appid': API_KEY}
         result = requests.get(url, paramaters)
 
         if result.status_code == 200:

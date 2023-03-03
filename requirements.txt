@@ -1,0 +1,7 @@
+apache_airflow==2.5.1
+apache_airflow_providers_postgres==5.4.0
+psycopg2_binary==2.9.5
+requests==2.28.2
+SQLAlchemy==1.4.46
+SQLAlchemy_Utils==0.40.0
+python-dotenv==1.0.0

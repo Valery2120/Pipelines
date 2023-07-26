@@ -1,2 +1,2 @@
 # Airflow-docker
-I've built pipeline using Airflow and Docker Compose.
+Building pipelines using Airflow and Docker Compose.
